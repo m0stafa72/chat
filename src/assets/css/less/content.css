@@ -1,0 +1,9 @@
+.content {
+  width: calc(100% - 356px);
+  height: 100vh;
+  background-color: #ffffff;
+  float: left;
+}
+.content .GetStart {
+  margin-top: 30%;
+}

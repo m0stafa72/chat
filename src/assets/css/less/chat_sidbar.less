@@ -1,0 +1,96 @@
+
+.sidbar {
+    width: 355px;
+    height: 100vh;
+    background-color: #483d8b;
+    float: right;
+    position: fixed;
+
+    
+
+    .chat-items {
+        position: relative;
+        
+        ul {
+            padding: 0;
+            list-style: none;
+            display: flex;
+
+            li {
+                margin-right: 9%;
+                a{
+                    display: block;
+                }
+                i {
+                    font-size: 2em;
+                    
+                }
+                small , i {
+                    color: #9e9e9e;
+                }
+
+                &.active , &:hover {
+                    i,small {
+                        color: #ffffff;
+                    }
+                }
+
+                button {
+                    display: block;
+                    border: none;
+                    text-decoration: none;
+                    background: none;
+                    text-align: right;
+                    -moz-appearance: none;
+                }
+            }
+        }
+    }
+
+    
+}
+
+.sidbar-contents {
+    width: 100%;
+    height: auto;
+    padding-bottom: 30px;
+
+   
+    ul {
+        height: 55vh;
+        overflow-y: scroll;
+
+        scrollbar-width: none;
+        &::-webkit-scrollbar { 
+            display: none; 
+        }
+        &::-moz-scrollbar { 
+            display: none; 
+        }
+        &::-webkit-scrollbar { width: 0 !important }
+    }
+    
+}
+
+
+.profile {
+    display: flex;
+    
+    .profile-img {
+        position: relative;
+        img{
+            border-radius: 50%;
+        }
+        .circled {
+            position: absolute;
+            bottom: -6px;
+            left: 7px;
+
+            &.success {
+                i {
+                    color: #16da16;
+                }
+            }
+        }
+    }
+}
