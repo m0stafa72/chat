@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@ishawnwang/withunmounted": "^1.0.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "canvas-to-blob": "^1.0.0",
     "current-date": "^0.1.1",
     "jalali-moment": "^3.3.2",
